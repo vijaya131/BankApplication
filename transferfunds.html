@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+  <title>Transfer Funds</title>
+</HEAD>
+    <BODY>
+  <TABLE>
+  <TR>
+	<TH>Enter Name</TH>
+	 <TD ><INPUT TYPE="text" NAME="name"></TD>
+	  </TR>
+       <br>   
+	   <TR>
+	         <TH>Enter ACCOUNT NUMBER</TH>
+		 <TD><INPUT TYPE="number" NAME="account_number"></TD>
+	  </TR>
+    <br>
+	  <TR>
+	         <TH>Enter AMOUNT</TH>
+		 <TD><INPUT TYPE="number" NAME="amount_transfer"></TD>
+	  </TR>
+ <br>
+
+<TR><TH>Click  On Submit</TH><BR>
+	<TD>
+        <input type="button" id="idname" value = "submit " onclick="submit()"/><br>
+	</TD>
+	</TR>
+	</form>
+</center>
+	<script type="text/javascript">
+        function submit(){
+	window.location = 'http://localhost:8080/BankApplication/UpdateDetails.jsp';
+
+        }
+
+
+    	</script>
+        
+</TABLE>
+
+</BODY>
+</HTML>
